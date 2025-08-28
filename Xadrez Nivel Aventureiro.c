@@ -1,10 +1,9 @@
-// Desafio Nivel Novato!
+// Desafio Nivel Aventureiro!
 
-  #include <stdio.h>
+ #include <stdio.h>
 
-    int main (){
-    
-    
+     int main () {
+
 // Mover a Torre na horizontal 5x casas para Direita!
 
     int torre = 1;
@@ -20,7 +19,6 @@
 
     printf("\n\n");
 
-
 // Mover o Bispo na diagonal 2x para cima e 2x esquerda!
 
     printf("Peça-Bispo:\n\n");
@@ -29,7 +27,6 @@
         printf("O Bispo moveu-se %d casa na diagonal...\n", Bispo);
     }
     printf("\n\n");
-    
 
 // Mover a Rainha na horizontal 8x para esquerda!
 
@@ -43,6 +40,19 @@
     } 
     printf("\n\n");
 
+// Movendo o Cavalo de troia 3x Baixo e 1x para Esquerda!
 
-    return 0;
+    for ( int Cavalo = 0; Cavalo <= 1; Cavalo++) {
+
+        int Troia = 1;
+        
+        while ( Troia <= 3 ){
+            printf("Baixo\n");
+              Troia++;
+        }
+        printf("Esquerda\n");
+          Cavalo++;
+    }
+
+        return 0;
 }
