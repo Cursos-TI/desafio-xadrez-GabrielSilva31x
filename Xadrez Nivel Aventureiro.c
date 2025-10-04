@@ -4,7 +4,7 @@
 
      int main () {
 
-// Mover a Torre na horizontal 5x casas para Direita!
+// Mover a Torre na horizontal 5x casas para Direita
 
     int torre = 1;
 

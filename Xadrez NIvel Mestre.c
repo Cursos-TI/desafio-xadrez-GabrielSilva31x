@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-// Void do Bispo!
+// Void do Bispo
 
 void Movimento1 (int c) {
     if (c < 2) {
